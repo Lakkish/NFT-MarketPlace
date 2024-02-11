@@ -30,7 +30,7 @@ body {
     padding-top: 45px;
 
 }
-.Homesm{
+.Homemd{
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
     height: 155vh;
@@ -56,7 +56,7 @@ body {
     font-weight: bold;
 }
 
-.HomeHeadingsm{
+.HomeHeadingmd{
     font-size: 60px;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .Homebtn {
-    font-size: 25px;
+    font-size: 20px;
     background-color: #FFA447;
     color: white;
     font-weight: 600;
@@ -84,7 +84,7 @@ body {
 }
 
 .Homebtn2 {
-    font-size: 25px;
+    font-size: 20px;
     background-color: transparent;
     color: white;
     font-weight: 600;
@@ -111,6 +111,10 @@ body {
     font-size: 38px;
     margin-right: 80px;
 }
+.Valuemd {
+    font-size: 38px;
+    margin-right: 80px;
+}
 .Valuelg{
     font-size:30px;
     margin-right: 60px;
@@ -125,15 +129,101 @@ body {
     font-size: 30px;
     font-weight: 100;
 }
+.Tagmd {
+
+    font-size: 30px;
+    font-weight: 100;
+}
 
 .TigerHero {
     width: 450px;
 }
-.TigerHerosm{
+.TigerHeromd{
     width:340px;
     height: 340px;
 }
 .TigerHerolg{
     width:480px;
     height: 480px;
+}
+
+/*AboutUs Section styling*/
+.AboutUs {
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 45px;
+
+}
+.AbtUsImg{
+    width:250px;
+    
+}
+
+.AbtUsImg3{
+    width:260px;
+    
+}
+.AbtUsImglg1{
+    height:200px;
+}
+.AbtUsImglg2{
+    height:200px;
+}
+.AbtUsImglg3{
+    height:200px;
+}
+.AbtUsImglg4{
+    height:200px;
+}
+.ImgContainer1{
+    display: inline-flex;
+    background-color:rgba(255, 255, 255, .2);
+    height: 260px;
+    width:250px;
+    border-radius: 20px;
+}
+.ImgContainer2{
+    display: inline-flex;
+    background-color:rgba(255, 255, 255, .2);
+    height: 260px;
+    width:250px;
+    border-radius: 20px;
+}
+.ImgContainer3{
+    display: inline-flex;
+    align-content: center;
+    background-color:rgba(255, 255, 255, .2);
+    height: 260px;
+    width:250px;
+    border-radius: 20px;
+}
+
+.ImgContainer4{
+    display: inline-flex;
+    background-color:rgba(255, 255, 255, .2);
+    height: 260px;
+    width:250px;
+    border-radius: 20px;
+}
+.lgContainer{
+    height: 220px;
+    width:200px;
+}
+.AboutUsDescript{
+    line-height: 30px;
+}
+.AboutUsDescriptlg{
+    line-height: 25px;
+}
+.Walletbtn{
+    font-size: 15px;
+    background-color:rgba(255, 255, 255, .4);
+    color: white;
+    font-weight: 600;
+    padding: 7px 30px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
 }
