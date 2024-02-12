@@ -33,7 +33,7 @@ body {
 .Homemd{
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
-    height: 155vh;
+    height: 160vh;
     padding-top: 45px;
 }
 
@@ -107,13 +107,29 @@ body {
     text-align: center;
     border-radius: 20px;
 }
+.ValueContainermd{
+    padding: 15px 4px 15px 30px;
+    background-color: rgba(255, 255, 255, .2);
+    text-align: center;
+    border-radius: 20px;
+}
+.ValueContainerxsm{
+    padding: 15px 4px 15px 28px;
+    background-color: rgba(255, 255, 255, .2);
+    text-align: center;
+    border-radius: 20px;
+}
 .Value {
     font-size: 38px;
     margin-right: 80px;
 }
 .Valuemd {
-    font-size: 38px;
+    font-size: 24px;
     margin-right: 80px;
+}
+.Valuexsm {
+    font-size: 22px;
+    margin-right: 70px;
 }
 .Valuelg{
     font-size:30px;
@@ -131,7 +147,12 @@ body {
 }
 .Tagmd {
 
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.Tagxsm{
+
+    font-size: 18px;
     font-weight: 100;
 }
 
