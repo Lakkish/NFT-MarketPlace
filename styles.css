@@ -176,6 +176,9 @@ body {
     padding-top: 45px;
 
 }
+.AboutUsHead{
+    font-size: 38px;
+}
 .AbtUsImg{
     width:250px;
     
@@ -248,3 +251,73 @@ body {
     border-width: 3px;
     border-color: white;
 }
+
+/*Collector Section styling*/
+.Collector {
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 140vh;
+    padding-top: 45px;
+
+}
+.CollectorHead{
+    font-size: 38px;
+}
+.CollectorSubHead{
+    font-weight: lighter;
+    font-size: 12px;
+}
+.CollectorContainer{
+
+    
+    margin-left: 10px;
+    height: 335px;
+    width: 290px;
+    border-radius: 10px;
+    background-color: rgba(255, 215, 0, .1);
+}
+.TopHead{
+    display: inline-block;
+    font-weight: lighter;
+    color:#D3D3D3;
+}
+.dot {
+        position: relative;
+        top:2px;
+        right:5px;
+        height: 16px;
+        width: 16px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: block;
+ }
+.CreatorName{
+    display: inline-flex;
+    position: relative;
+    top: 28px;
+    right:72px;
+    color:#FFA447;
+    font-weight: 700;
+
+}
+.CollectionImage{
+    position: relative;
+    width: 200px;
+    top: 35px;
+    left:43px;
+}
+.BtmHead{
+   
+    font-weight: lighter;
+    color:#D3D3D3;
+
+}
+
+.CreatorNameBtm{
+    position: relative;
+    top:62px;
+    left:6px;
+    color:#FFA447;
+    font-weight: 700;
+}
+
