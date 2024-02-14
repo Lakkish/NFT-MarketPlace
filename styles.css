@@ -173,7 +173,14 @@ body {
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
     height: 105vh;
-    padding-top: 45px;
+    padding-top: 25px;
+
+}
+.AboutUsmd{
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 105vh;
+    padding-top: 25px;
 
 }
 .AboutUsHead{
@@ -259,14 +266,14 @@ body {
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
     height: 145vh;
-    padding-top: 45px;
+    padding-top: 25px;
 
 }
 .Collectormd {
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
     height: 100vh;
-    padding-top: 45px;
+    padding-top: 25px;
 
 }
 .CollectorHead{
@@ -360,7 +367,7 @@ body {
         transform: translateY(-50%); 
        
         
-    }
+ }
 
  
     .carousel-control-prev-icon,
@@ -376,3 +383,77 @@ body {
     .visually-hidden {
         display: none;
     }
+
+/*TopCreators section styling*/
+
+.Creator {
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 105vh;
+    padding-top: 25px;
+
+}
+.CreatorHead{
+    font-size: 38px;
+}
+.CreatorSubHead{
+    font-weight: lighter;
+    font-size: 12px;
+}
+.CreatorContainer{
+    margin-right: 22px;
+    height: 255px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgba(255, 215, 0, .1);
+}
+.CreatorContainerlg{
+        margin-right: 7px;
+        height: 255px;
+        width: 230px;
+        border-radius: 10px;
+        background-color: rgba(255, 215, 0, .1);
+    
+}
+
+.CreatorImg{
+    position: relative;
+    left: 48px;
+    top: 23px;
+    width: 126px;
+}
+.NFTName{
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    top: 33px;
+    left: 58px;
+
+}
+.TextSale{
+ font-size: 2px;
+ font-weight: 100;
+ font-family: 'Roboto';
+ color: #bbb;
+ font-size: 15px;
+ font-weight: lighter;
+}
+.SaleContainer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: 100;
+    color: azure;
+    position: relative;
+    top: 30px;
+    left: 27px;
+    
+}
+.Sno {
+    color: grey;
+    top: 17px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    width: 21px;
+    border-radius: 50%;
+}
