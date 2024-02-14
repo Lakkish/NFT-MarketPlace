@@ -172,7 +172,7 @@ body {
 .AboutUs {
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
-    height: 100vh;
+    height: 105vh;
     padding-top: 45px;
 
 }
@@ -200,18 +200,22 @@ body {
 .AbtUsImglg4{
     height:200px;
 }
-.ImgContainer1{
+.ImgContainer1,
+.ImgContainer2,
+.ImgContainer4{
     display: inline-flex;
     background-color:rgba(255, 255, 255, .2);
     height: 260px;
     width:250px;
     border-radius: 20px;
 }
-.ImgContainer2{
+.ImgContainer1lg,
+.ImgContainer2lg,
+.ImgContainer4lg{
     display: inline-flex;
     background-color:rgba(255, 255, 255, .2);
-    height: 260px;
-    width:250px;
+    height: 220px;
+    width:200px;
     border-radius: 20px;
 }
 .ImgContainer3{
@@ -222,18 +226,16 @@ body {
     width:250px;
     border-radius: 20px;
 }
-
-.ImgContainer4{
+.ImgContainer3lg{
     display: inline-flex;
+    align-content: center;
     background-color:rgba(255, 255, 255, .2);
-    height: 260px;
-    width:250px;
-    border-radius: 20px;
-}
-.lgContainer{
     height: 220px;
     width:200px;
+    border-radius: 20px;
 }
+
+
 .AboutUsDescript{
     line-height: 30px;
 }
@@ -256,7 +258,14 @@ body {
 .Collector {
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
-    height: 140vh;
+    height: 145vh;
+    padding-top: 45px;
+
+}
+.Collectormd {
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 100vh;
     padding-top: 45px;
 
 }
@@ -321,3 +330,49 @@ body {
     font-weight: 700;
 }
 
+.card{
+    padding:10px;
+    
+  }
+  .card-wrapper{
+    padding:0px;
+  }
+  .carouselBtn{
+    background-color: white;
+  }
+  .Collectionbtn{
+    font-size: 15px;
+    background-color:rgba(255, 255, 255, .4);
+    color: white;
+    font-weight: 600;
+    padding: 7px 30px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(218, 165, 32,.4);
+  }
+  .carousel-control-prev,
+    .carousel-control-next {
+        background-color: white; /* Change to your desired color */
+        width: 50px; /* Adjust width as needed */
+        height: 50px; /* Adjust height as needed */
+        top: 50%; 
+        transform: translateY(-50%); 
+       
+        
+    }
+
+ 
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e"); /* Change to your icon */
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M3 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e"); /* Change to your icon */
+    }
+
+    /* Hide the "Previous" and "Next" text */
+    .visually-hidden {
+        display: none;
+    }
