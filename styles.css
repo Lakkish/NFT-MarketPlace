@@ -179,7 +179,14 @@ body {
 .AboutUsmd{
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
-    height: 105vh;
+    height: 150vh;
+    padding-top: 45px;
+
+}
+.AboutUssm{
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 155vh;
     padding-top: 45px;
 
 }
@@ -201,12 +208,23 @@ body {
 .AbtUsImglg2{
     height:200px;
 }
+.AbtUsImgmd{
+    height:200px;
+}
 .AbtUsImglg3{
     height:200px;
 }
+.AbtUsImg3md{
+    height:200px;
+}
+
 .AbtUsImglg4{
     height:200px;
 }
+.AbtUsImg4md{
+    height:200px;
+}
+
 .ImgContainer1,
 .ImgContainer2,
 .ImgContainer4{
@@ -225,6 +243,16 @@ body {
     width:200px;
     border-radius: 20px;
 }
+.ImgContainer1md,
+.ImgContainer2md,
+.ImgContainer4md{
+    display: inline-flex;
+    background-color:rgba(255, 255, 255, .2);
+    height: 220px;
+    width:200px;
+    border-radius: 20px;
+}
+
 .ImgContainer3{
     display: inline-flex;
     align-content: center;
@@ -241,6 +269,15 @@ body {
     width:200px;
     border-radius: 20px;
 }
+.ImgContainer3md{
+    display: inline-flex;
+    align-content: center;
+    background-color:rgba(255, 255, 255, .2);
+    height: 220px;
+    width:200px;
+    border-radius: 20px;
+}
+
 
 
 .AboutUsDescript{
@@ -678,7 +715,9 @@ body {
     width: 402px;
 }
 .Monkeysm{
-    width:270px;
+    position:relative;
+    bottom: 15px;
+    width:260px;
 }
 .GoldMansm{
     width: 342px;
