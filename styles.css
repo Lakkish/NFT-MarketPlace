@@ -190,6 +190,13 @@ body {
     padding-top: 45px;
 
 }
+.AboutUsxs{
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 180vh;
+    padding-top: 45px;
+
+}
 .AboutUsHead{
     font-size: 38px;
 }
