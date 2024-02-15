@@ -633,3 +633,53 @@ body {
     margin-bottom: -213px;
 }
 
+/* How it works section styling */
+
+.HowItWorks{
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 210vh;
+    padding-top: 45px;
+}
+.HowItWorkssm {
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 250vh;
+    padding-top: 45px;
+}
+.Wallet{
+    position: relative;
+    width: 508px;
+    bottom: 54px;
+    right: 19px;
+}
+.HowItWorksHead{
+    font-size: 58px;
+    font-weight: 600;
+}
+.HowItWorksDescript{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #bbb;
+}
+.Monkey{
+    position: relative;
+    bottom: 86px;
+    left: 46px;
+    width: 432px;
+}
+.GoldMan{
+    position: relative;
+    top: -2px;
+    width: 514px;
+}
+
+.Walletsm{
+    width: 402px;
+}
+.Monkeysm{
+    width:270px;
+}
+.GoldMansm{
+    width: 342px;
+}
