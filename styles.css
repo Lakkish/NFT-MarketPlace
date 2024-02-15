@@ -729,3 +729,33 @@ body {
 .GoldMansm{
     width: 342px;
 }
+
+/* Footer Section styling  */
+.Footer{
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 42vh;
+    padding-top: 45px;
+}
+.Descript{
+    font-weight: lighter;
+    font-size: 12px;
+}
+.MailBox{
+    border-radius: 20px;
+    width: 415px;
+    height: 41px;
+}
+.MailSubmit{
+    background-color: rgba(255, 255, 255, .3);
+    border:2px solid;
+    border-image: linear-gradient(to right,gold,white);
+    border-radius: 20px;
+    width: 116px;
+
+}
+.MailBoxxs{
+    border-radius: 20px;
+    width: 351px;
+    height: 41px;
+}
