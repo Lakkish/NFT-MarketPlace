@@ -164,7 +164,7 @@ body {
     height: 340px;
 }
 .TigerHerolg{
-    width:480px;
+    width:380px;
     height: 480px;
 }
 
@@ -173,14 +173,14 @@ body {
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
     height: 105vh;
-    padding-top: 25px;
+    padding-top: 45px;
 
 }
 .AboutUsmd{
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
     height: 105vh;
-    padding-top: 25px;
+    padding-top: 45px;
 
 }
 .AboutUsHead{
@@ -266,14 +266,14 @@ body {
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
     height: 145vh;
-    padding-top: 25px;
+    padding-top: 45px;
 
 }
 .Collectormd {
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
     height: 100vh;
-    padding-top: 25px;
+    padding-top: 45px;
 
 }
 .CollectorHead{
@@ -387,10 +387,11 @@ body {
 /*TopCreators section styling*/
 
 .Creator {
+
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
     height: 105vh;
-    padding-top: 25px;
+    padding-top: 45px;
 
 }
 .CreatorHead{
@@ -457,3 +458,178 @@ body {
     width: 21px;
     border-radius: 50%;
 }
+
+/*Roadmap section styling*/
+.Roadmap{
+
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 142vh;
+    padding-top: 45px;
+}
+.Roadmapmd{
+
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 185vh;
+    padding-top: 45px;
+}
+.Roadmapsm{
+
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 185vh;
+    padding-top: 45px;
+}
+.RoadmapContainer{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .2);
+    width: 441px;
+    height: 164px;
+}
+.RoadmapContainerlg{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .2);
+    width: 379px;
+    height: 160px;
+}
+.RoadmapContainermd{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .2);
+    width: 361px;
+    height: 155px;
+}
+.Align1{
+    position: relative;
+    top: 49px;
+}
+.Align2{
+    position: relative;
+    top: 133px;
+}
+.Align3{
+    position: relative;
+    top: 143px;
+}
+.Align4{
+    position: relative;
+    top: 226px;
+}
+.Align5{
+    position: relative;
+    top: 233px;
+}
+.Align6{
+    position: relative;
+    top: 318px;
+}
+
+.borderleft{
+    position: relative;
+    left: 317px;
+    height: 166px;
+}
+.borderright{
+    position: relative;
+    right: 19px;
+    height: 167px;
+    transform: scaleX(-1);
+    
+}
+.Alignlg1{
+    position: relative;
+    top: 49px;
+}
+.Alignlg2{
+    position: relative;
+    top: 133px;
+}
+.Alignlg3{
+    position: relative;
+    top: 143px;
+}
+.Alignlg4{
+    position: relative;
+    top: 226px;
+}
+.Alignlg5{
+    position: relative;
+    top: 233px;
+}
+.Alignlg6{
+    position: relative;
+    top: 318px;
+}
+
+.borderleftlg{
+    position: relative;
+    left: 256px;
+    height: 166px;
+}
+.borderrightlg{
+    position: relative;
+    right: 19px;
+    height: 167px;
+    transform: scaleX(-1);
+    
+}
+.Alignmd1{
+    position: relative;
+    top: 49px;
+}
+.Alignmd2{
+    position: relative;
+    top: 79px;
+}
+.Alignmd3{
+    position: relative;
+    top: 109px;
+}
+.Alignmd4{
+    position: relative;
+    top: 139px;
+}
+.Alignmd5{
+    position: relative;
+    top: 169px;
+}
+.Alignmd6{
+    position: relative;
+    top: 199px;
+}
+.borderleftmd{
+    position: relative;
+    left: 243px;
+    height: 158px;
+}
+.borderrightmd{
+    position: relative;
+    right: 18px;
+    height: 157px;
+    transform: scaleX(-1);
+    
+}
+.vlin {
+    border-left: 2px solid;
+    border-image: linear-gradient(to bottom, white, gold) 5;
+    height: 576px;
+    position: relative;
+    width: 1.6px;
+    left: 50%;
+    margin-left: -3px;
+    top: -339px;
+    margin-bottom: -213px;
+}
+
+.vllgin {
+    border-left: 2px solid;
+    border-image: linear-gradient(to bottom, white, gold) 5;
+    height: 576px;
+    position: relative;
+    width: 1.6px;
+    left: 50%;
+    margin-left: -3px;
+    top: -339px;
+    margin-bottom: -213px;
+}
+
