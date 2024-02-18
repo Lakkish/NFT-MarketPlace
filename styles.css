@@ -44,7 +44,62 @@ body {
 .ContentAlignsm {
     text-align: center;
 }
-
+.star {
+    display: inline-flex;
+    position: relative;
+    bottom: 22px;
+    right: 104px;
+    width: 55px;
+}
+.shadestar {
+    display: inline-flex;
+    position: relative;
+    bottom: 445px;
+    right: 207px;
+    width: 72px;
+}
+.starlg {
+    display: inline-flex;
+    position: relative;
+    bottom: 31px;
+    right: 85px;
+    width: 55px;
+}
+.shadestarlg {
+    display: inline-flex;
+    position: relative;
+    bottom: 396px;
+    right: 149px;
+    width: 72px;
+}
+.starmd {
+    display: inline-flex;
+    position: relative;
+    top: 201px;
+    right: 62px;
+    width: 49px;
+}
+.shadestarmd {
+    bottom: 120px;
+    display: inline-flex;
+    position: relative;
+    right: 416px;
+    width: 63px;
+}
+.starxs {
+    display: inline-flex;
+    position: relative;
+    top: 201px;
+    right: 88px;
+    width: 40px;
+}
+.shadestarxs {
+    bottom: 143px;
+    display: inline-flex;
+    position: relative;
+    right: 357px;
+    width: 56px;
+}
 .HomeHeading {
     color: white;
     font-size: 75px;
@@ -100,6 +155,7 @@ body {
     background-color: rgba(255, 255, 255, .2);
     text-align: center;
     border-radius: 20px;
+    width: 636px;
 }
 .ValueContainerlg{
     padding: 20px 10px 20px 30px;
@@ -121,7 +177,10 @@ body {
 }
 .Value {
     font-size: 38px;
-    margin-right: 80px;
+    
+}
+.mrgr{
+    margin-right: 100px;
 }
 .Valuemd {
     font-size: 24px;
@@ -186,7 +245,7 @@ body {
 .AboutUssm{
     background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
     background-size: cover;
-    height: 155vh;
+    height: 165vh;
     padding-top: 45px;
 
 }
@@ -438,6 +497,12 @@ body {
     padding-top: 45px;
 
 }
+.Creatormd{
+    background-image: url('https://res.cloudinary.com/dxt8rpayc/image/upload/v1707614330/bg_ue0nrg.svg');
+    background-size: cover;
+    height: 80vh;
+    padding-top: 45px;
+}
 .CreatorHead{
     font-size: 38px;
 }
@@ -502,7 +567,18 @@ body {
     width: 21px;
     border-radius: 50%;
 }
-
+/* Creator's carousel horizontal styling */
+/* .card-body {
+    min-height: 300px;
+    min-width: 300px;
+    margin-right: 5px;
+} */
+.card-container {
+    overflow-x: hidden;
+}
+.card-block {
+    min-height: 250px;
+}
 /*Roadmap section styling*/
 .Roadmap{
 
@@ -543,6 +619,16 @@ body {
     width: 361px;
     height: 155px;
 }
+.month{
+    font-weight: lighter;
+    color:#D3D3D3;
+}
+.RdmapHead{
+    font-size: 28px;
+}
+
+
+
 .Align1{
     position: relative;
     top: 49px;
@@ -570,12 +656,14 @@ body {
 
 .borderleft{
     position: relative;
-    left: 317px;
+    left: 19.5em;
+    bottom: 10em;
     height: 166px;
 }
 .borderright{
     position: relative;
-    right: 19px;
+    right: 1em;
+    bottom:10em;
     height: 167px;
     transform: scaleX(-1);
     
@@ -607,12 +695,14 @@ body {
 
 .borderleftlg{
     position: relative;
-    left: 256px;
+    left: 15.8em;
+    bottom: 11.2em;
     height: 166px;
 }
 .borderrightlg{
     position: relative;
-    right: 19px;
+    bottom:11.5em;
+    right: 1em;
     height: 167px;
     transform: scaleX(-1);
     
@@ -656,27 +746,81 @@ body {
 .vlin {
     border-left: 2px solid;
     border-image: linear-gradient(to bottom, white, gold) 5;
-    height: 576px;
+    height: 590px;
     position: relative;
     width: 1.6px;
     left: 50%;
     margin-left: -3px;
-    top: -339px;
+    top: -395px;
     margin-bottom: -213px;
 }
 
 .vllgin {
     border-left: 2px solid;
     border-image: linear-gradient(to bottom, white, gold) 5;
-    height: 576px;
+    height: 577px;
     position: relative;
     width: 1.6px;
     left: 50%;
     margin-left: -3px;
-    top: -339px;
+    top: -342px;
     margin-bottom: -213px;
 }
-
+.dotRd {
+    position: relative;
+    top: -0.5em;
+    right: 0.55em;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    display: block;
+    
+}
+.clr1{
+    background-color: white;
+}
+.clr2{
+    background-color: #FFA447;
+}
+.dotaln1{
+    top:-0.55em;
+}
+.dotaln2{
+   top: 3.55em
+}
+.dotaln3{
+       top: 14.55em;
+}
+.dotaln4{
+    top: 18.55em;
+}
+.dotaln5{
+    top: 27.55em;
+}
+.dotaln6{
+    top:31.55em;
+}
+.dotaln1lg{
+    top:-0.55em;
+}
+.dotaln2lg{
+   top: 3.55em
+}
+.dotaln3lg{
+       top: 13.55em;
+}
+.dotaln4lg{
+    top: 17.55em;
+}
+.dotaln5lg{
+    top: 26.55em;
+}
+.dotaln6lg{
+    top:30.55em;
+}
+hr{
+border-top: 1px dashed red;
+}
 /* How it works section styling */
 
 .HowItWorks{
